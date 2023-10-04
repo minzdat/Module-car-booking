@@ -1,0 +1,47 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+
+.register-page h2 {
+  padding-left: 120px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.register-form {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.register-form input,
+.register-form input[type="password"] {
+  height: 50px;
+}
+
+.register-page button {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .register-page {
+    width: 220px;
+    height: 400px;
+    padding-left: 10px;
+  }
+  .register-page h2 {
+    font-size: 15px;
+  }
+  .register-form {
+    width: 150px;
+    padding-left: 10px;
+  }
+}

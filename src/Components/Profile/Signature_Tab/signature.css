@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Pacifico&family=Caveat&display=swap");
+
+.QR_signature{
+    min-width: min-content;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+}
+
+/* Extra extra large devices ( 1600px and up) */
+@media only screen and (min-width: 1600px) {
+   
+}

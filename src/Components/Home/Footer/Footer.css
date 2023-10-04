@@ -1,0 +1,28 @@
+.topfooter {}
+
+
+.topfooter-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+.topfooter-description {
+    color: white;
+    padding-top: 20px;
+}
+
+.bottomfooter-title {
+    font-size: 20px;
+}
+
+.bottomfooter-decription {
+    padding-top: 20px;
+    line-height: 26px;
+}
+
+.bottomfooter-borderbottom {
+    border-bottom: 3px solid #4ba747;
+    width: 50%;
+    padding-top: 20px;
+}

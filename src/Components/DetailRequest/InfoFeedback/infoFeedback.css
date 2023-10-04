@@ -1,0 +1,15 @@
+.info-feadback-row{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.info-feadback-col-title{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.info-feadback-col{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info-feadback-col-content{
+    overflow-wrap: break-word;
+}

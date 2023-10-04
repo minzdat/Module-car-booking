@@ -1,0 +1,17 @@
+.filter-form {
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.filter-form .ant-form-item {
+  margin-bottom: 8px;
+}
+
+.filter-form .ant-form-item-control-input {
+  display: flex;
+}
+
+.filter-form .ant-form-item-control-input .ant-form-item-children-icon {
+  margin-left: auto;
+}

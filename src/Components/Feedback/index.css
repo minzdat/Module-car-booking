@@ -1,0 +1,23 @@
+.feedback-title {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedback-content {
+  text-align: center;
+}
+
+.feedback-content p {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.feedback-content textarea {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.feedback-content Button {
+  color: white;
+  background-color: #337ab7;
+}

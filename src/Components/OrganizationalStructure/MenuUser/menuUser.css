@@ -1,0 +1,11 @@
+.organizational-menu-user{
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    border-top-left-radius: 0;
+    background-color: rgb(245,246,250);
+    min-height: 61px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}

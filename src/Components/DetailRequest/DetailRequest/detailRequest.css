@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .responsive-title-after{
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .responsive-title p {
+      text-align: center;
+    }
+    .responsive-title .ant-card-head-title{
+      display: none;
+    }
+    .responsive-title-after{
+      display: inline-block;
+      font-weight: 600;
+      font-size: medium;
+    }
+    .page-detail-request{
+      margin-left: 80px;
+    }
+  }
+
+  .required {
+    color: red;
+  }
+  .page-detail-request{
+    background-color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .info-detail-request{
+    width: 100%;
+    height: calc(100vh - 156px);
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 125px;
+    padding: 15px;
+}
+
+  .info-basic-detail-request p{
+    width: 100%;
+    font-weight: 700; 
+  }
+
+  .title-detail-request{
+    color: #434343;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    font-weight: 700;
+  }
+  
+  .content-detail-request{
+    font-family: "Segoe UI";
+    font-size: 14px;
+    line-height: 1.42857143;
+  }
+
+  .col-detail-request{
+    margin-bottom: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col-detail-request label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    cursor: default;
+    font-family: "Segoe UI";
+  }
+  .col-detail-request p{
+    overflow-wrap: break-word;
+  }
+  .attention-detail-request{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Segoe UI";
+  }
+  
+  .attention-detail-request  p{
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #130e0e;
+  }
+
+  .list-approvers p{
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #130e0e;
+    margin: 0 0 10px;
+  }
+
+  .approver{
+    margin-bottom: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .approver  label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    cursor: default;
+  }
+  .detail-request-attachment-name-file{
+    overflow-wrap: break-word;
+  }
+
+  

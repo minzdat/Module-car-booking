@@ -1,0 +1,134 @@
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header {
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    padding: 0;
+}
+
+.header-name {
+    line-height: 40px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 700;
+    color: #0273bb;
+    width: 350px;
+    display: block;
+}
+
+.header-homepage {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 700;
+    color: #0273bb;
+    float: right;
+    padding-right: 50px;
+    position: relative;
+    top: -100px;
+}
+
+.header-homepage .img-avatar {
+    margin-left: 10px;
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+.header-homepage .img-flat {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.header-homepage .ant-dropdown .ant-dropdown-menu {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.logo-name {
+    display: flex;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .header {
+        height: 200px;
+    }
+
+    .header .logo-name {
+        display: flex;
+        float: none;
+        height: 100px;
+    }
+
+    .header .header-homepage {
+        display: contents;
+        width: 200px;
+    }
+
+    .header .header-homepage .ant-dropdown-trigger {
+        float: right;
+        margin-right: 10px;
+        height: 100px;
+    }
+
+    .header .header-homepage .ant-select {
+        float: right;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+
+    .header-name {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 911px) {
+    .header {
+        height: 200px;
+    }
+
+    .header .logo-name {
+        display: flex;
+        float: none;
+        height: 100px;
+    }
+
+    .header .header-homepage {
+        display: contents;
+        width: 200px;
+    }
+
+    .header .header-homepage .ant-dropdown-trigger {
+        float: right;
+        margin-right: 10px;
+        height: 100px;
+    }
+
+    .header .header-homepage .ant-select {
+        float: right;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+
+    .header-name {
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1240px) {}

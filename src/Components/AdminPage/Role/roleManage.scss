@@ -1,0 +1,15 @@
+.manage-role-content .ant-pagination {
+    bottom: 30px;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.manage-role-content .ant-pagination .ant-pagination-item-active {
+    background-color: #337ab7;
+    color: white;
+}
+
+.manage-role-content {
+    overflow-x: auto;
+}

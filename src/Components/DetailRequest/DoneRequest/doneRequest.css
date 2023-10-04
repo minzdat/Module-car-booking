@@ -1,0 +1,30 @@
+.done-request-feedback{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+.done-request-feedback-title{
+    color: #2F85EF ;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid #ddd;
+}
+.done-request-feedback-btn{
+    padding: 10px 25px;
+    background-color: #2f85ef;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.done-request-check-radio{
+    margin-bottom: 15px;
+    font-weight: 700;
+}

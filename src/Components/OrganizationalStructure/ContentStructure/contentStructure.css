@@ -1,0 +1,128 @@
+.organizational-structure{
+    background-color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: calc(100vh - 156px);
+}
+.organizational-structure-content{
+    padding: 10px 20px;
+    transition: all 0.3s;
+    background-color: #ffffff;
+    width: auto;
+    height: 100%;
+    overflow: scroll;
+    /* overflow-x: hidden; */
+    padding-top: 24px;
+}
+.organizational-structure-content h3{
+    color: #434343;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.organizational-structure-content-department{
+    position: relative;
+    top: -125px;
+}
+.tabs-container .ant-tabs .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list {
+    height: calc(100vh - 345px);
+    overflow-y: auto;
+}
+.tabs-col{
+    display: flex;
+    
+}
+.tabs-col .ant-tabs-nav{
+    width: 25%;
+    border-top: 1px solid #cac3c3;
+}
+.tabs-col .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab{
+    margin-top: 0;
+    margin-left: 0;
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.tabs-col .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:nth-child(even){
+    background-color: rgb(238,238,238);
+}
+.icon-tabs-col-department{
+    font-size: 44px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.tabs-col .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:hover{
+    background-color: #279c83;
+    color: white;
+    border: 1px solid white;
+}
+.tabs-col .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:active{
+    background-color: #279c83;
+}
+.tabs-row .ant-tabs-nav{
+    width: 100%;
+    border: none;
+    background-color: none;
+}
+.tabs-row .ant-tabs-nav{
+    height: 63px;
+    border-bottom: 1px solid black;
+}
+.tabs-col .tabs-row .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab{
+   color: #555;
+   background-color: #fff;
+   border: 1px solid transparent;
+   border-radius: 4px 4px 0 0;
+   /* border-bottom: 1px solid #ddd; */
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   padding: 6px 12px;
+}
+/* .tabs-col .tabs-row .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab:hover{
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+} */
+.titile-department{
+    font-size: 30px;
+    color: #434343;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.tabs-container .ant-tabs .ant-tabs-nav-operations button{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+   .organizational-structure{
+    margin-left: 80px;
+   }
+}
+@media screen and (max-width: 1200px) {
+    .organizational-structure-content{
+        width: 1200px;
+    }
+    .organizational-structure{
+        overflow: scroll;
+        height: auto;
+
+    }
+ }
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+.info-user{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.nav-bar-profile{
+    margin-top:  15px;
+    border-bottom: 3px solid #e1e1e1;
+    margin-right:-25px;
+    margin-left:-25px;
+    background-color: #F5F6FA;
+    align-items: center;
+}
+.btn-camera:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0px 20px 0px 0px;
+    z-index: 1;
+}
+.Upload-Avatar{
+    margin : -150px 0px 0px -40px;
+}
+.content-profile{
+    height:calc(100vh - 75px);
+    overflow: scroll;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    white-space: normal;
+    outline: none;
+    color: inherit;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .content-profile{
+        height: 100%; 
+        margin-left: 75px;
+        overflow: scroll; 
+        padding-left: 15px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    .content-profile{
+        height: 100%;
+        margin-left: 75px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+    .content-profile{
+        height:calc(100vh - 75px);
+        margin-left: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .content-profile{
+        height:calc(100vh - 75px);
+        margin-left: 0px;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content-profile{
+        height:calc(100vh - 75px);  
+        margin-left: 0px;
+    }
+}
+
+/* Extra extra large devices ( 1600px and up) */
+@media only screen and (min-width: 1600px) {
+    .content-profile{
+        height:calc(100vh - 75px);
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,46 @@
+.label-approver{
+    margin-bottom: 10px;
+}
+.label-approver input{
+    border: none;
+}
+.col-request .ant-select-selection-search{
+    line-height: 53px;
+}
+@media screen and (max-width: 576px) {
+    .upload-attachment-addrequest .ant-upload{
+        float: left;
+    }
+}
+.btn-attachment-comment{
+    background-color: rgb(47,133,239);
+    color: white;
+}
+.responsive-select-option  .ant-select-arrow{
+    position: absolute;
+    right: -1px;
+}
+.responsive-send-approver .ant-row .ant-col .ant-form-item-required{
+    height: fit-content;
+}
+.responsive-lable-approver {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+/* .responsive-lable-approver:hover {
+    overflow: visible;
+    position: relative;
+    white-space: normal;
+    overflow-wrap: break-word;
+    visibility: visible;
+    z-index: 1000;
+    opacity: 0.3;
+
+} */
+.responsive-limit-width-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

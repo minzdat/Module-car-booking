@@ -1,0 +1,20 @@
+.right-80 {
+    float: right;
+    max-width: 320px;
+}
+
+.manage-department-content .ant-pagination {
+    bottom: 30px;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.manage-department-content .ant-pagination .ant-pagination-item-active {
+    background-color: #337ab7;
+    color: white;
+}
+
+.manage-department-content {
+    overflow-x: auto;
+}

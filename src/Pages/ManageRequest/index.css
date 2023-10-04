@@ -1,0 +1,406 @@
+.request {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.manage-request-navbar {
+  background-color: #f5f6fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  position: fixed;
+  z-index: 2;
+  width: 70%;
+  margin-top: 64px;
+}
+
+.manage-request-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 0 5px;
+}
+
+.manage-request-content .ant-table {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.manage-request-content .ant-table-thead .ant-table-cell {
+  background-color: #ebeef0;
+  color: #a3a6b4;
+}
+
+.manage-request-content .ant-table-tbody>tr:hover {
+  background-color: #f4f0f0;
+  cursor: pointer;
+}
+
+.manage-request-content {
+  position: relative;
+  height: calc(100vh - 249px);
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-top: 126px;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 15px;
+  overflow-x: auto;
+}
+
+.manage-request-content .ant-pagination {
+  bottom: 30px;
+  position: fixed;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+}
+
+.manage-request-content .ant-pagination .ant-pagination-item-active {
+  background-color: #337ab7;
+  color: white;
+}
+
+.manage-request-waiting-approval-status-theme {
+  background-color: #2f85ef;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-waiting-approval-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.manage-request-approved-status-theme {
+  background-color: #4ba747;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-approved-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.manage-request-rejected-status-theme {
+  background-color: #ff3030;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-rejected-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.manage-request-canceled-status-theme {
+  background-color: #7a7879;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-canceled-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.manage-request-draft-status-theme {
+  background-color: #f5ad5f;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-draft-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.manage-request-done-status-theme {
+  background-color: #2a5b28;
+  color: white;
+  text-align: center;
+}
+
+.manage-request-done-status-theme::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.request-shared {
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+
+/* SAMSUNG GALAXY S8+ */
+@media screen and (max-width: 360px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-navbar {
+    display: inline-table;
+    width: 5px;
+    padding-left: 60px;
+  }
+
+  .manage-request-content {
+    padding-top: 45px;
+    margin-right: 42px;
+    margin-left: 48px;
+  }
+
+  .manage-request-navbar .search-bar {
+    padding-bottom: 10px;
+  }
+
+  .manage-request-navbar .ant-space-compact {
+    padding-right: 70px;
+  }
+
+  .manage-request-button-navbar {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-navbar {
+    display: inline-table;
+    width: 5px;
+  }
+
+  .manage-request-content {
+    padding-top: 45px;
+    margin-right: 42px;
+    margin-left: 48px;
+  }
+
+  .manage-request-navbar .search-bar {
+    padding-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .manage-request-navbar .ant-space-compact {
+    padding-right: 70px;
+  }
+
+  .manage-request-button-navbar {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-navbar {
+    height: 70px;
+  }
+
+  .manage-request-navbar .search-bar {
+    width: 200px;
+  }
+
+  .manage-request-button-navbar button {
+    font-size: 10px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-navbar {
+    height: 70px;
+    width: 80%;
+    margin-left: 80px;
+  }
+
+  .manage-request-content {
+    margin-left: 100px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-navbar {
+    height: 70px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 120px;
+  }
+
+  .manage-request-button-navbar .text-export-excel {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-create-new {
+    display: none;
+  }
+
+  .manage-request-button-navbar .text-filter {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .manage-request-title {
+    display: none;
+  }
+
+  .manage-request-content .ant-pagination {
+    padding-right: 120px;
+  }
+}

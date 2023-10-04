@@ -1,0 +1,351 @@
+.mcs-header {
+    position: fixed;
+    z-index: 1001;
+    align-items: center;
+    background-color: #167c82;
+    width: 100%;
+    padding-inline: 0;
+
+    & .row-header {
+        align-items: center;
+
+        & .btn-menu {
+            border: none;
+            background-color: #167c82;
+            color: white;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+
+
+
+    & .col-logo {
+        float: left;
+        width: 100%;
+        display: flex;
+
+        & .col-menu {
+            float: left;
+        }
+
+        .col-logo-img {
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+
+
+        & p {
+            width: 100%;
+            color: white;
+            display: contents;
+        }
+
+        & .col-logo-label {
+            float: left;
+            padding-left: 10px;
+            width: 100%;
+
+
+            & p {
+                width: 100%;
+                color: white;
+                display: contents;
+                font-size: 17px;
+                cursor: pointer;
+                font-family: 'Segoe UI';
+            }
+        }
+    }
+
+
+
+    & .col-function {
+        float: right;
+        display: initial;
+
+        & .group-btn {
+            float: right;
+            background: none;
+            font-size: 20px;
+
+            & .function-menu-item {
+                padding-inline: 2px !important;
+
+                & .ant-menu-title-content {
+                    & .ant-badge {
+                        & .ant-badge-count {
+                            inset-inline-start: 0 !important;
+                            inset-inline-end: unset !important;
+                        }
+                    }
+                }
+
+            }
+
+            & .ant-menu-submenu-title {
+                margin-bottom: 10px;
+
+                & .anticon {
+                    color: white;
+                    font-size: 20px;
+
+                }
+            }
+
+            & .btn-item {
+                font-size: 20px;
+                margin-left: 5px;
+                margin-right: 5px;
+                border: none;
+                background-color: #167c82;
+                color: white;
+                height: fit-content;
+                padding-bottom: 10px;
+                padding-left: 10px;
+
+                & svg {
+                    font-size: 20px;
+                }
+
+                & img {
+                    height: 32px;
+                    width: 32px;
+                }
+            }
+
+            // & .btn-item:hover {
+            //     background-color: green;
+            // }
+        }
+    }
+
+}
+
+.popup-menu {
+    & .ant-menu {
+        max-height: fit-content;
+        min-width: auto !important;
+
+        & .function-menu-item {
+            height: 55px !important;
+            line-height: 55px !important;
+            background-color: #167c82;
+
+            & .ant-menu-title-content {
+                & .ant-btn {
+                    height: 40px !important;
+                    width: 62px !important;
+                }
+            }
+
+        }
+
+        & img {
+            height: 32px;
+            width: 32px;
+        }
+
+    }
+
+}
+
+
+.ant-drawer-content-wrapper {
+    height: calc(100vh - 93px);
+}
+
+.dropdown-help {
+    // display: block;
+    // top: 50px;
+    width: 320px;
+    // height: calc(100vh - 31113px);
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    margin-top: 61px;
+
+    & .title-dropdown {
+        font-size: 28px;
+        font-weight: 400;
+        border-bottom: 1px solid #ddd;
+    }
+
+    & .title-dropdown {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+        & span {
+            margin-left: 10px;
+            font-size: 28px;
+            font-family: 'Segoe UI';
+        }
+
+        & .header-btn-close {
+            font-size: 20px;
+            // margin-left: 5px;
+            // margin-right: 5px;
+            border: none;
+            background-color: white;
+            color: black;
+            float: right;
+        }
+    }
+
+    & .content-dropdown {
+        display: block;
+        margin-top: 10px;
+
+
+
+
+        & .account-info {
+            & img {
+                margin-left: 10px;
+                float: left;
+                width: 64px;
+                height: 64px;
+            }
+
+            & .info-name {
+                margin-left: 10px;
+                float: left;
+                font-size: 17px;
+                font-family: 'Segoe UI';
+            }
+
+            & .info-email {
+                margin-left: 10px;
+                font-style: italic;
+                font-family: 'Segoe UI';
+                font-size: 14px;
+            }
+        }
+
+        .content-info {
+            border-top: 1px solid #ddd;
+            margin-top: 25px;
+
+            & span {
+                font-size: 20px;
+                margin-left: 10px;
+            }
+
+            & p {
+                color: #4BA747;
+                margin-left: 10px;
+            }
+
+            & .my-profile {
+                cursor: pointer;
+            }
+        }
+
+        & span {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        & p {
+            color: #4BA747;
+            margin-left: 25px;
+            font-family: 'Segoe UI';
+        }
+
+        & p:hover {
+            color: black;
+        }
+
+    }
+}
+
+// .logo {
+//     width: 200px;
+//     height: 100px;
+// }
+
+// .header {
+//     background-color: #fff;
+//     height: 100px;
+//     line-height: 100px;
+//     padding: 0;
+// }
+
+// .header-name {
+//     font-family: 'Segoe UI';
+//     font-size: 16px;
+//     font-weight: 700;
+//     color: #0273bb;
+// }
+
+// .header-homepage {
+//     font-family: 'Segoe UI';
+//     font-size: 16px;
+//     font-weight: 700;
+//     color: #0273bb;
+//     float: right;
+//     padding-right: 50px;
+//     position: relative;
+//     top: -100px;
+// }
+
+// .logo-name {
+//     display: flex;
+// }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-homepage {
+        display: none;
+    }
+
+    .header-name {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 677px) {
+    .col-function .ant-menu-overflow {
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 678px) {
+    .mcs-header {
+        & .col-function {
+            & .group-btn {
+                & .function-menu-item {
+                    position: unset !important;
+                    overflow-y: unset !important;
+                }
+
+            }
+        }
+    }
+
+    // .col-function .ant-menu-overflow {
+    //     display: initial;
+    // }
+
+    // .col-function .ant-menu-overflow .function-menu-item {
+    //     overflow-y: unset;
+    //     position: unset;
+    // }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 767px) {
+    .dropdown-help {
+        margin-top: 40px;
+
+        & .ant-drawer-body {
+            padding: 36px 24px 24px 24px !important;
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1240px) {}

@@ -1,0 +1,110 @@
+.fixed-menu {
+    position: fixed;
+    top: 64px;
+    z-index: 999;
+    border-bottom: 1px solid #e1e1e1;
+    border-top-left-radius: 0;
+    background-color: rgb(245,246,250);
+    min-height: 61px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fixed-menu .Menu.Item {
+    white-space: nowrap;
+    margin: 0 10px;
+    color: #8894A1;
+    font-weight: 500;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.fixed-menu .select-user-share .ant-modal-wrap {
+    background-color: red;
+}
+.custom-menu{
+    margin: 0 auto !important;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    width: 600px;
+}
+.custom-menu .ant-select {
+  margin-bottom: 15px;
+}
+.menu-title-alert {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-btn-delete-checkbox{
+    margin-top: '10px'; 
+    margin-bottom: '10px'; 
+}
+.fixed-width-object{
+    width: 100%;
+}
+/* .menu-after-btn-input{
+    height: 514px;
+} */
+.menu-after-btn-forward{
+    height: 54px;
+    margin-top: 15px;
+}
+.menu-btn-delete{
+    text-align: center;
+}
+/* .popup-menu-detail-request .ant-menu {
+    max-height: fit-content;
+    min-width: auto !important;
+}
+.popup-menu-detail-request .ant-menu .function-menu-{
+    height: 55px !important;
+    line-height: 55px !important;
+    background-color: #167c82;
+} */
+@media only screen and (max-width: 809px) {
+    .menu-detail-request .fixed-menu .ant-menu-overflow-item-rest {
+        opacity: 1 !important;
+        order: 3 !important;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .menu-detail-request .fixed-menu {
+        display: flex;
+    }  
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    .menu-detail-request .fixed-menu {
+        display: flex;
+    }
+    .menu-detail-request .fixed-menu .ant-menu-item {
+        position: unset !important;
+        overflow-y: unset !important;
+        height: fit-content !important;
+        opacity: 1 !important;
+    }
+
+    .menu-detail-request .fixed-menu .ant-menu-overflow-item-rest {
+        position: unset !important;
+        overflow-y: unset !important;
+        opacity: 0 !important;
+        order: 12 !important;
+    }
+  }
+  .menu-detail-request .ant-menu-overflow{
+    width: auto;
+  }
+  .menu-detail-request .ant-menu-overflow .ant-menu-item::after{
+    border-bottom: none;
+  }
+
+
+
+  

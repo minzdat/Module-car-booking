@@ -1,0 +1,83 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+
+.login-page h2 {
+  padding-left: 150px;
+  color: white;
+}
+
+.login-form {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  width: 470px;
+}
+
+.login-form input,
+.login-form input[type="password"] {
+  height: 50px;
+}
+
+.login-form #btn-login {
+  margin-right: 20px;
+}
+
+.login-form #btn-register {
+  color: white;
+  background-color: #42b72a;
+}
+
+@media screen and (max-width: 320px) {
+  .login-page {
+    width: 220px;
+    height: 400px;
+    padding-left: 10px;
+  }
+  .login-page h2 {
+    font-size: 15px;
+  }
+  .login-form {
+    width: 150px;
+    padding-left: 10px;
+  }
+  .login-page #btn-login {
+    margin-bottom: 10px;
+  }
+}
+
+.ant-spin-dot-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 99rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+.ant-spin-dot-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 4px solid transparent;
+  border-right-color: #ff6bcb;
+  border-bottom-color: #ffa400;
+  animation: circleloading 1s forwards infinite linear;
+}
+
+@keyframes circle-loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
